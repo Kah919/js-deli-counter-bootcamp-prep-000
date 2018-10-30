@@ -13,7 +13,7 @@ let nowServing = katzDeliLine => { // lets you know whos turn it is and shifts a
   return "There is nobody waiting to be served!"
 }
 
-let currentLine = katzDeliLine => { // lets you know who is on the line 
+let currentLine = katzDeliLine => { // lets you know who is on the line
   let array = []
   if(katzDeliLine.length) {
     for(let i = 0; i < katzDeliLine.length; i++) {
@@ -27,4 +27,3 @@ takeANumber(katzDeliLine, "Kah")
 takeANumber(katzDeliLine, "Ludy")
 nowServing(katzDeliLine)
 currentLine(katzDeliLine)
-
