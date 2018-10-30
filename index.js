@@ -5,6 +5,7 @@ function takeANumber(katzDeliLine, newName) {
   return `Welcome, ${newName}. You are number ${katzDeliLine.length} in line.`
 }
 
+<<<<<<< HEAD
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     return `Currently serving ${katzDeliLine.shift()}.`
@@ -21,5 +22,10 @@ function currentLine(katzDeliLine) {
       line.push(` ${i + 1}. ${katzDeliLine[i]}`);
     }
     return `The line is currently:${line}`
+=======
+function nowServing() {
+  if {
+    return "Currently serving ${katzDeliLine[0]}"
+>>>>>>> 64986653944eeed4b29cc261c148db84b3f2be6e
   }
 }
